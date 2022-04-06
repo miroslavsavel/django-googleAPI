@@ -29,15 +29,15 @@ touch .gitignore
 
 - https://linuxize.com/post/how-to-create-python-virtual-environments-on-ubuntu-18-04/
 
-sudo apt install python3-venv
-python3 -m venv django-google-api-env
-source django-google-api-env/bin/activate
+- sudo apt install python3-venv
+- python3 -m venv django-google-api-env
+- source django-google-api-env/bin/activate
 
-pip install django
-django-admin startproject django_google_api
-cd django_google_api
+- pip install django
+- django-admin startproject django_google_api
+- cd django_google_api
 
-python manage.py startapp main
+- python manage.py startapp main
 
 install VS CODE
 sudo snap install --classic code
