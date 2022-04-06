@@ -40,4 +40,4 @@ touch .gitignore
 - python manage.py startapp main
 
 install VS CODE
-sudo snap install --classic code
+- sudo snap install --classic code
