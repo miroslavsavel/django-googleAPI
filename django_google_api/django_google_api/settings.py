@@ -120,10 +120,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 STATICFILES_DIRS = [
-    os.path.join(BASR_DIR, 'static')
+    os.path.join(BASE_DIR, 'static')
 ]
 STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASR_DIR, 'static_cdn')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 
 GOOGLE_API_KEY = "XX"
 RECAPTCHA_KEY = "XY"

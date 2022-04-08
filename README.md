@@ -39,6 +39,10 @@ touch .gitignore
 
 - python manage.py startapp main
 
+# RUN project
+cd to google_django_api
+python3 manage.py runserver
+
 install VS CODE
 - sudo snap install --classic code
 
