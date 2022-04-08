@@ -41,3 +41,13 @@ touch .gitignore
 
 install VS CODE
 - sudo snap install --classic code
+
+# setting.py
+- use library Django decoupled to prevent exposure of secret key, removing sensitive informvation from project
+- adda static routes to the content and API
+
+# urls.py
+     we are referencing urls.py that is in the main directory, so we have to create it
+# /main/urls.py
+
+- install request library
